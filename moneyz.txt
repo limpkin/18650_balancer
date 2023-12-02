@@ -1,0 +1,7 @@
+1x PCB: $43
+shipping per PCB: $9
+25x 18650 holder: $47
+100x PCB resistors: $100
+4x M5 mounting blocks:$20
+
+Total: $220

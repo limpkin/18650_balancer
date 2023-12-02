@@ -1,0 +1,1087 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid ef32d31a-1fc5-4d03-9fb0-17e746ec707e)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Connector:Conn_01x01_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Conn_01x01_Pin" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connector, single row, 01x01, script generated" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Conn_01x01_Pin_1_1"
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy 0.8636 0)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 0.8636 0.127) (end 0 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (pin passive line (at 5.08 0 180) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:VCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "VCC" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"VCC\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "VCC_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "VCC_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "VCC" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 67.31 87.63 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0b9ef0b2-7d0b-4617-a42c-5db5e25a1c03)
+    (property "Reference" "J2" (at 68.58 87.63 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "Conn_01x01_Pin" (at 66.04 85.09 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "TerminalBlock_Wuerth:Wuerth_REDCUBE-THR_WP-THRBU_74655095_THR" (at 67.31 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 67.31 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Field4" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/74655095R/6643999" (at 67.31 87.63 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 95e8c5e0-5345-447b-a0cc-e2e12c381f6f))
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e"
+          (reference "J2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 78.74 86.36 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1d222ede-9d9a-4649-b3b0-680e6b28ec49)
+    (property "Reference" "#PWR0127" (at 78.74 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 78.74 90.17 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 78.74 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 78.74 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d40cb6fc-023e-43c5-9a40-957e7f17e2bc))
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e"
+          (reference "#PWR0127") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/be15754b-3d33-47a2-9c85-f10c8da4274d"
+          (reference "#PWR02") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/3c19d876-a456-46d0-b9c2-44b174e80a26"
+          (reference "#PWR07") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/9ba5642a-300f-4442-b557-1af2434876b3"
+          (reference "#PWR012") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/2a2c87fa-7dcf-40f4-9e2f-8faac787cc50"
+          (reference "#PWR017") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/41bed1a9-74fc-4cd3-aded-08d080bf570a"
+          (reference "#PWR022") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/e42c8122-6c51-4535-b0e4-b5167bee005a"
+          (reference "#PWR047") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/97c814f1-cfdd-4ffb-b651-b6ae834405a8"
+          (reference "#PWR042") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/543b1f87-f1c3-4c19-b45e-0efa1f3016ab"
+          (reference "#PWR037") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/1ba629b3-8178-4941-aa99-4a25c26cd799"
+          (reference "#PWR027") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/6bedc4c0-d6a8-4166-83e1-f75ef4308bf9"
+          (reference "#PWR032") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/cf8f9070-f9c7-4a60-8b4e-4e4c4227a3dd"
+          (reference "#PWR072") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/dee6848d-b3da-428e-98a3-7426647748fe"
+          (reference "#PWR067") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/9f90686c-e77f-47bd-9ebb-8753b340e261"
+          (reference "#PWR062") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/712de5fb-efbd-4b02-935c-f4b27c0ed739"
+          (reference "#PWR052") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/42e88169-1bc3-4f09-bb98-869231eff6c8"
+          (reference "#PWR057") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/cc121e0c-e740-4e66-96de-2fe3ebc47c5c"
+          (reference "#PWR097") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/22a6fe82-dbdd-41b3-a35e-8b0c7ebf8481"
+          (reference "#PWR092") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/822e8e18-13c1-4c59-b161-6e7e81b1fcf3"
+          (reference "#PWR087") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/a0ee559b-aab5-4387-9406-f45fe7ee6379"
+          (reference "#PWR077") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/21f4da66-2958-4f32-84ae-73e90374c792"
+          (reference "#PWR082") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/a556c82f-ef15-4557-be3e-14c183412347"
+          (reference "#PWR0122") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/5ee2b192-9f8f-464e-9178-e393d9ae1091"
+          (reference "#PWR0117") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/550dd3d5-650d-4f9b-82ed-104877b5e3c4"
+          (reference "#PWR0112") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/ac11fe8b-70d5-4ce4-941f-e18782d09819"
+          (reference "#PWR0102") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/e72087cd-929a-44b6-bfae-c3b45e771808"
+          (reference "#PWR0107") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 100.33 80.01 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5689756e-8d8f-4150-bd17-b9cbdb63d4ef)
+    (property "Reference" "J4" (at 101.6 81.28 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x01_Pin" (at 101.6 82.55 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "TerminalBlock_Wuerth:Wuerth_REDCUBE-THR_WP-THRBU_74655095_THR" (at 100.33 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 100.33 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Field4" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/74655095R/6643999" (at 100.33 80.01 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1bb70141-a51c-47bd-806e-6134ed5971fb))
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e"
+          (reference "J4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 100.33 85.09 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 76a01e56-6b2f-4dd8-89a3-7df6c16f6142)
+    (property "Reference" "#PWR0129" (at 100.33 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 100.33 88.9 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 100.33 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 100.33 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0dea6dd4-7aee-4729-ae28-1130deb17d2d))
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e"
+          (reference "#PWR0129") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/be15754b-3d33-47a2-9c85-f10c8da4274d"
+          (reference "#PWR02") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/3c19d876-a456-46d0-b9c2-44b174e80a26"
+          (reference "#PWR07") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/9ba5642a-300f-4442-b557-1af2434876b3"
+          (reference "#PWR012") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/2a2c87fa-7dcf-40f4-9e2f-8faac787cc50"
+          (reference "#PWR017") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/41bed1a9-74fc-4cd3-aded-08d080bf570a"
+          (reference "#PWR022") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/e42c8122-6c51-4535-b0e4-b5167bee005a"
+          (reference "#PWR047") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/97c814f1-cfdd-4ffb-b651-b6ae834405a8"
+          (reference "#PWR042") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/543b1f87-f1c3-4c19-b45e-0efa1f3016ab"
+          (reference "#PWR037") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/1ba629b3-8178-4941-aa99-4a25c26cd799"
+          (reference "#PWR027") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/6bedc4c0-d6a8-4166-83e1-f75ef4308bf9"
+          (reference "#PWR032") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/cf8f9070-f9c7-4a60-8b4e-4e4c4227a3dd"
+          (reference "#PWR072") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/dee6848d-b3da-428e-98a3-7426647748fe"
+          (reference "#PWR067") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/9f90686c-e77f-47bd-9ebb-8753b340e261"
+          (reference "#PWR062") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/712de5fb-efbd-4b02-935c-f4b27c0ed739"
+          (reference "#PWR052") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/42e88169-1bc3-4f09-bb98-869231eff6c8"
+          (reference "#PWR057") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/cc121e0c-e740-4e66-96de-2fe3ebc47c5c"
+          (reference "#PWR097") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/22a6fe82-dbdd-41b3-a35e-8b0c7ebf8481"
+          (reference "#PWR092") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/822e8e18-13c1-4c59-b161-6e7e81b1fcf3"
+          (reference "#PWR087") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/a0ee559b-aab5-4387-9406-f45fe7ee6379"
+          (reference "#PWR077") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/21f4da66-2958-4f32-84ae-73e90374c792"
+          (reference "#PWR082") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/a556c82f-ef15-4557-be3e-14c183412347"
+          (reference "#PWR0122") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/5ee2b192-9f8f-464e-9178-e393d9ae1091"
+          (reference "#PWR0117") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/550dd3d5-650d-4f9b-82ed-104877b5e3c4"
+          (reference "#PWR0112") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/ac11fe8b-70d5-4ce4-941f-e18782d09819"
+          (reference "#PWR0102") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/e72087cd-929a-44b6-bfae-c3b45e771808"
+          (reference "#PWR0107") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VCC") (at 88.9 81.28 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7a90e116-7878-4fcd-b46f-cbf6eeee0b94)
+    (property "Reference" "#PWR0128" (at 88.9 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC" (at 88.9 77.47 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 88.9 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 88.9 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid aba31769-0049-4f73-9cf7-4de63b30522b))
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e"
+          (reference "#PWR0128") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/be15754b-3d33-47a2-9c85-f10c8da4274d"
+          (reference "#PWR01") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/3c19d876-a456-46d0-b9c2-44b174e80a26"
+          (reference "#PWR06") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/9ba5642a-300f-4442-b557-1af2434876b3"
+          (reference "#PWR011") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/2a2c87fa-7dcf-40f4-9e2f-8faac787cc50"
+          (reference "#PWR016") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/41bed1a9-74fc-4cd3-aded-08d080bf570a"
+          (reference "#PWR021") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/e42c8122-6c51-4535-b0e4-b5167bee005a"
+          (reference "#PWR046") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/97c814f1-cfdd-4ffb-b651-b6ae834405a8"
+          (reference "#PWR041") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/543b1f87-f1c3-4c19-b45e-0efa1f3016ab"
+          (reference "#PWR036") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/1ba629b3-8178-4941-aa99-4a25c26cd799"
+          (reference "#PWR026") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/6bedc4c0-d6a8-4166-83e1-f75ef4308bf9"
+          (reference "#PWR031") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/cf8f9070-f9c7-4a60-8b4e-4e4c4227a3dd"
+          (reference "#PWR071") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/dee6848d-b3da-428e-98a3-7426647748fe"
+          (reference "#PWR066") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/9f90686c-e77f-47bd-9ebb-8753b340e261"
+          (reference "#PWR061") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/712de5fb-efbd-4b02-935c-f4b27c0ed739"
+          (reference "#PWR051") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/42e88169-1bc3-4f09-bb98-869231eff6c8"
+          (reference "#PWR056") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/cc121e0c-e740-4e66-96de-2fe3ebc47c5c"
+          (reference "#PWR096") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/22a6fe82-dbdd-41b3-a35e-8b0c7ebf8481"
+          (reference "#PWR091") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/822e8e18-13c1-4c59-b161-6e7e81b1fcf3"
+          (reference "#PWR086") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/a0ee559b-aab5-4387-9406-f45fe7ee6379"
+          (reference "#PWR076") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/21f4da66-2958-4f32-84ae-73e90374c792"
+          (reference "#PWR081") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/a556c82f-ef15-4557-be3e-14c183412347"
+          (reference "#PWR0121") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/5ee2b192-9f8f-464e-9178-e393d9ae1091"
+          (reference "#PWR0116") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/550dd3d5-650d-4f9b-82ed-104877b5e3c4"
+          (reference "#PWR0111") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/ac11fe8b-70d5-4ce4-941f-e18782d09819"
+          (reference "#PWR0101") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/e72087cd-929a-44b6-bfae-c3b45e771808"
+          (reference "#PWR0106") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VCC") (at 67.31 82.55 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a8008863-791c-483a-a016-b6e2bcbd4c00)
+    (property "Reference" "#PWR0126" (at 67.31 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC" (at 67.31 78.74 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 67.31 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 67.31 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3962db2d-48b8-4459-988e-ae45582de6f9))
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e"
+          (reference "#PWR0126") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/be15754b-3d33-47a2-9c85-f10c8da4274d"
+          (reference "#PWR01") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/3c19d876-a456-46d0-b9c2-44b174e80a26"
+          (reference "#PWR06") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/9ba5642a-300f-4442-b557-1af2434876b3"
+          (reference "#PWR011") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/2a2c87fa-7dcf-40f4-9e2f-8faac787cc50"
+          (reference "#PWR016") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/41bed1a9-74fc-4cd3-aded-08d080bf570a"
+          (reference "#PWR021") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/e42c8122-6c51-4535-b0e4-b5167bee005a"
+          (reference "#PWR046") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/97c814f1-cfdd-4ffb-b651-b6ae834405a8"
+          (reference "#PWR041") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/543b1f87-f1c3-4c19-b45e-0efa1f3016ab"
+          (reference "#PWR036") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/1ba629b3-8178-4941-aa99-4a25c26cd799"
+          (reference "#PWR026") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/6bedc4c0-d6a8-4166-83e1-f75ef4308bf9"
+          (reference "#PWR031") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/cf8f9070-f9c7-4a60-8b4e-4e4c4227a3dd"
+          (reference "#PWR071") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/dee6848d-b3da-428e-98a3-7426647748fe"
+          (reference "#PWR066") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/9f90686c-e77f-47bd-9ebb-8753b340e261"
+          (reference "#PWR061") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/712de5fb-efbd-4b02-935c-f4b27c0ed739"
+          (reference "#PWR051") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/42e88169-1bc3-4f09-bb98-869231eff6c8"
+          (reference "#PWR056") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/cc121e0c-e740-4e66-96de-2fe3ebc47c5c"
+          (reference "#PWR096") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/22a6fe82-dbdd-41b3-a35e-8b0c7ebf8481"
+          (reference "#PWR091") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/822e8e18-13c1-4c59-b161-6e7e81b1fcf3"
+          (reference "#PWR086") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/a0ee559b-aab5-4387-9406-f45fe7ee6379"
+          (reference "#PWR076") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/21f4da66-2958-4f32-84ae-73e90374c792"
+          (reference "#PWR081") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/a556c82f-ef15-4557-be3e-14c183412347"
+          (reference "#PWR0121") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/5ee2b192-9f8f-464e-9178-e393d9ae1091"
+          (reference "#PWR0116") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/550dd3d5-650d-4f9b-82ed-104877b5e3c4"
+          (reference "#PWR0111") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/ac11fe8b-70d5-4ce4-941f-e18782d09819"
+          (reference "#PWR0101") (unit 1)
+        )
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e/e72087cd-929a-44b6-bfae-c3b45e771808"
+          (reference "#PWR0106") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 88.9 86.36 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c332acdd-5886-4fca-9dca-8fa3e6f2deca)
+    (property "Reference" "J3" (at 90.17 86.36 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "Conn_01x01_Pin" (at 87.63 83.82 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "TerminalBlock_Wuerth:Wuerth_REDCUBE-THR_WP-THRBU_74655095_THR" (at 88.9 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 88.9 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Field4" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/74655095R/6643999" (at 88.9 86.36 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2917beeb-9849-4133-b912-6efe0e8af01c))
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e"
+          (reference "J3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 78.74 81.28 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f48b540c-21c5-4459-94f1-685e2162f879)
+    (property "Reference" "J1" (at 80.01 82.55 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x01_Pin" (at 80.01 83.82 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "TerminalBlock_Wuerth:Wuerth_REDCUBE-THR_WP-THRBU_74655095_THR" (at 78.74 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 78.74 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Field4" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/74655095R/6643999" (at 78.74 81.28 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ae45ec9a-ea75-4327-ad58-98688feff63b))
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet (at 46.99 19.05) (size 24.13 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1ba629b3-8178-4941-aa99-4a25c26cd799)
+    (property "Sheetname" "4*18658" (at 46.99 18.3384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4x_18650.kicad_sch" (at 46.99 23.4446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 102.87 29.21) (size 24.13 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 21f4da66-2958-4f32-84ae-73e90374c792)
+    (property "Sheetname" "4*18669" (at 102.87 28.4984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4x_18650.kicad_sch" (at 102.87 33.6046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e" (page "18"))
+      )
+    )
+  )
+
+  (sheet (at 102.87 49.53) (size 24.13 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 22a6fe82-dbdd-41b3-a35e-8b0c7ebf8481)
+    (property "Sheetname" "4*18666" (at 102.87 48.8184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4x_18650.kicad_sch" (at 102.87 53.9246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e" (page "20"))
+      )
+    )
+  )
+
+  (sheet (at 19.05 49.53) (size 24.13 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2a2c87fa-7dcf-40f4-9e2f-8faac787cc50)
+    (property "Sheetname" "4*18653" (at 19.05 48.8184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4x_18650.kicad_sch" (at 19.05 53.9246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 19.05 29.21) (size 24.13 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3c19d876-a456-46d0-b9c2-44b174e80a26)
+    (property "Sheetname" "4*18651" (at 19.05 28.4984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4x_18650.kicad_sch" (at 19.05 33.6046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 19.05 59.69) (size 24.13 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 41bed1a9-74fc-4cd3-aded-08d080bf570a)
+    (property "Sheetname" "4*18654" (at 19.05 58.9784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4x_18650.kicad_sch" (at 19.05 64.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 74.93 29.21) (size 24.13 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 42e88169-1bc3-4f09-bb98-869231eff6c8)
+    (property "Sheetname" "4*18664" (at 74.93 28.4984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4x_18650.kicad_sch" (at 74.93 33.6046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e" (page "13"))
+      )
+    )
+  )
+
+  (sheet (at 46.99 39.37) (size 24.13 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 543b1f87-f1c3-4c19-b45e-0efa1f3016ab)
+    (property "Sheetname" "4*18657" (at 46.99 38.6584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4x_18650.kicad_sch" (at 46.99 43.7646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e" (page "9"))
+      )
+    )
+  )
+
+  (sheet (at 130.81 39.37) (size 24.13 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 550dd3d5-650d-4f9b-82ed-104877b5e3c4)
+    (property "Sheetname" "4*18672" (at 130.81 38.6584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4x_18650.kicad_sch" (at 130.81 43.7646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e" (page "24"))
+      )
+    )
+  )
+
+  (sheet (at 130.81 49.53) (size 24.13 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5ee2b192-9f8f-464e-9178-e393d9ae1091)
+    (property "Sheetname" "4*18671" (at 130.81 48.8184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4x_18650.kicad_sch" (at 130.81 53.9246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e" (page "25"))
+      )
+    )
+  )
+
+  (sheet (at 46.99 29.21) (size 24.13 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6bedc4c0-d6a8-4166-83e1-f75ef4308bf9)
+    (property "Sheetname" "4*18659" (at 46.99 28.4984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4x_18650.kicad_sch" (at 46.99 33.6046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 74.93 19.05) (size 24.13 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 712de5fb-efbd-4b02-935c-f4b27c0ed739)
+    (property "Sheetname" "4*18663" (at 74.93 18.3384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4x_18650.kicad_sch" (at 74.93 23.4446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e" (page "12"))
+      )
+    )
+  )
+
+  (sheet (at 102.87 39.37) (size 24.13 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 822e8e18-13c1-4c59-b161-6e7e81b1fcf3)
+    (property "Sheetname" "4*18667" (at 102.87 38.6584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4x_18650.kicad_sch" (at 102.87 43.7646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e" (page "19"))
+      )
+    )
+  )
+
+  (sheet (at 46.99 49.53) (size 24.13 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 97c814f1-cfdd-4ffb-b651-b6ae834405a8)
+    (property "Sheetname" "4*18656" (at 46.99 48.8184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4x_18650.kicad_sch" (at 46.99 53.9246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e" (page "10"))
+      )
+    )
+  )
+
+  (sheet (at 19.05 39.37) (size 24.13 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9ba5642a-300f-4442-b557-1af2434876b3)
+    (property "Sheetname" "4*18652" (at 19.05 38.6584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4x_18650.kicad_sch" (at 19.05 43.7646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 74.93 39.37) (size 24.13 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9f90686c-e77f-47bd-9ebb-8753b340e261)
+    (property "Sheetname" "4*18662" (at 74.93 38.6584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4x_18650.kicad_sch" (at 74.93 43.7646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e" (page "14"))
+      )
+    )
+  )
+
+  (sheet (at 102.87 19.05) (size 24.13 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a0ee559b-aab5-4387-9406-f45fe7ee6379)
+    (property "Sheetname" "4*18668" (at 102.87 18.3384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4x_18650.kicad_sch" (at 102.87 23.4446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e" (page "17"))
+      )
+    )
+  )
+
+  (sheet (at 130.81 59.69) (size 24.13 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a556c82f-ef15-4557-be3e-14c183412347)
+    (property "Sheetname" "4*18670" (at 130.81 58.9784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4x_18650.kicad_sch" (at 130.81 64.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e" (page "26"))
+      )
+    )
+  )
+
+  (sheet (at 130.81 19.05) (size 24.13 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ac11fe8b-70d5-4ce4-941f-e18782d09819)
+    (property "Sheetname" "4*18673" (at 130.81 18.3384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4x_18650.kicad_sch" (at 130.81 23.4446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e" (page "22"))
+      )
+    )
+  )
+
+  (sheet (at 19.05 19.05) (size 24.13 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid be15754b-3d33-47a2-9c85-f10c8da4274d)
+    (property "Sheetname" "4*18650" (at 19.05 18.3384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4x_18650.kicad_sch" (at 19.05 23.4446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 102.87 59.69) (size 24.13 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid cc121e0c-e740-4e66-96de-2fe3ebc47c5c)
+    (property "Sheetname" "4*18665" (at 102.87 58.9784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4x_18650.kicad_sch" (at 102.87 64.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e" (page "21"))
+      )
+    )
+  )
+
+  (sheet (at 74.93 59.69) (size 24.13 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid cf8f9070-f9c7-4a60-8b4e-4e4c4227a3dd)
+    (property "Sheetname" "4*18660" (at 74.93 58.9784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4x_18650.kicad_sch" (at 74.93 64.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e" (page "16"))
+      )
+    )
+  )
+
+  (sheet (at 74.93 49.53) (size 24.13 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid dee6848d-b3da-428e-98a3-7426647748fe)
+    (property "Sheetname" "4*18661" (at 74.93 48.8184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4x_18650.kicad_sch" (at 74.93 53.9246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e" (page "15"))
+      )
+    )
+  )
+
+  (sheet (at 46.99 59.69) (size 24.13 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid e42c8122-6c51-4535-b0e4-b5167bee005a)
+    (property "Sheetname" "4*18655" (at 46.99 58.9784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4x_18650.kicad_sch" (at 46.99 64.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e" (page "11"))
+      )
+    )
+  )
+
+  (sheet (at 130.81 29.21) (size 24.13 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid e72087cd-929a-44b6-bfae-c3b45e771808)
+    (property "Sheetname" "4*18674" (at 130.81 28.4984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "4x_18650.kicad_sch" (at 130.81 33.6046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "balancer"
+        (path "/ef32d31a-1fc5-4d03-9fb0-17e746ec707e" (page "23"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
